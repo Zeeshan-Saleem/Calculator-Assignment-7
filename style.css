@@ -1,0 +1,66 @@
+.main{
+    border: 2px solid grey;
+    width: 300px;    
+    height: 282px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    
+}
+body{
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/17/50/abstract-background-calculator-vector-11601750.jpg");
+    /* background-repeat: no-repeat; */
+}
+.result{
+    width: 97.5%;
+    height: 50px;
+    color: black;
+    background-color: lightblue;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clearbtn:hover {
+    /* width: 100%; */
+    background-color: green;
+}
+.btn{
+    width: 72px;
+    margin-top: 5px;
+    size: 200px;
+    height: 40px;
+    border-radius: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* display: grid; */
+    
+}
+.btn:hover{
+    background-color:green;
+}
+.btn:active{
+    background-color:blueviolet;
+}
+.btn:focus{
+    background-color: goldenrod;
+}
+.heading{
+    text-align: center;
+    color: red
+}
+@media screen and (max-width: 992px) {
+    .main {
+      size: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .main {
+      size: 50%;
+    }
+  }
+  .abc{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
